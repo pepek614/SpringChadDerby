@@ -11,9 +11,11 @@ public class HelloSpringAoo {
 		Coach theCoach = context.getBean("MyCoach", Coach.class);
 		//call methods on the bean
 		System.out.println(theCoach.getDailyWorkout());
+		//lets call new method fortuneService
+		System.out.println(theCoach.getDailyFortune());
 		//close the context
 		context.close();
-		
+			
 		
 	}
 
