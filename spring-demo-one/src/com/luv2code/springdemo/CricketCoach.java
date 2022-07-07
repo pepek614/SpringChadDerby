@@ -1,5 +1,7 @@
 package com.luv2code.springdemo;
 
+import java.util.List;
+
 public class CricketCoach implements Coach {
 	private FortuneService fortuneService;
 	
@@ -57,6 +59,17 @@ public class CricketCoach implements Coach {
 	public String getDailyFortune() {
 		// TODO Auto-generated method stub
 		return fortuneService.getFortune();
+	}
+	public List<Integer> getLotto() {
+		return fortuneService.getLottoNumbers();
+	}
+
+
+
+	@Override
+	public int age() {
+		// TODO Auto-generated method stub
+		return 40;
 	}
 
 }

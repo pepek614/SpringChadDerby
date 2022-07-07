@@ -15,5 +15,10 @@ public class BaseballCoach implements Coach{
 		// TODO Auto-generated method stub
 		return fortuneService.getFortune();
 	}
+	@Override
+	public int age() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 }

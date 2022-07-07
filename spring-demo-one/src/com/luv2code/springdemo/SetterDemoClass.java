@@ -14,9 +14,11 @@ public class SetterDemoClass {
 		// call methods on the bean
 		System.out.println(theCoach.getDailyWorkout());
 		System.out.println(theCoach.getDailyFortune());
+		System.out.println(theCoach.getLotto());
 		//call out new methods to get literal values
 		System.out.println(theCoach.getEmailAddress());
 		System.out.println(theCoach.getTeam());
+		System.out.println(theCoach.age());
 		//close the context
 		context.close();
 	}

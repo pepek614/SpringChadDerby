@@ -22,5 +22,10 @@ public class TrackCoach implements Coach {
 		// TODO Auto-generated method stub
 		return "Just do it! " + fortuneService.getFortune();
 	}
+	@Override
+	public int age() {
+		// TODO Auto-generated method stub
+		return 45;
+	}
 
 }
