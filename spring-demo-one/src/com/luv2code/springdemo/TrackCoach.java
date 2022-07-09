@@ -24,8 +24,15 @@ public class TrackCoach implements Coach {
 	}
 	@Override
 	public int age() {
-		// TODO Auto-generated method stub
+		System.out.println("hello, you just open age() method in TrackCoach class");
 		return 45;
 	}
+	public FortuneService getFortuneService() {
+		return fortuneService;
+	}
+	public void setFortuneService(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
+	
 
 }

@@ -63,6 +63,13 @@ public class CricketCoach implements Coach {
 	public List<Integer> getLotto() {
 		return fortuneService.getLottoNumbers();
 	}
+	
+
+
+
+	public FortuneService getFortuneService() {
+		return fortuneService;
+	}
 
 
 
