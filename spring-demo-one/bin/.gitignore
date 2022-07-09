@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 /.classpath
 /.project
 /com/
+=======
+/applicationContext.xml
+/beanLifeCycle-applicationContext.xml
+/beanScope-applicationContext.xml
+/com/
+/sport.properties
+>>>>>>> 3ec3ede0570f76c39ee1b36f384d299f675921f2

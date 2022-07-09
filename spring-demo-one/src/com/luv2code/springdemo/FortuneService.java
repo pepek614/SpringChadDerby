@@ -6,3 +6,4 @@ public interface FortuneService {
 	public String getFortune();
 	public List<Integer> getLottoNumbers();
 }
+
