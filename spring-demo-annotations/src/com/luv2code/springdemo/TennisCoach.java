@@ -14,7 +14,7 @@ public class TennisCoach implements Coach {
 	
 	
 	@Autowired
-	@Qualifier("danzel")
+	@Qualifier("happyFortuneService")
 	private FortuneService fortuneService;
 	
 	//define default constructor
