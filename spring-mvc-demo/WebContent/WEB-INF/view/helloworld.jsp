@@ -2,7 +2,7 @@
 <html>
 <body>
 
-Hello World of Spring!<a href="http://www.wykop.pl>" portal></a>
+Hello World of Spring!
 <br><br>
 
 Student name: ${param.studentName}
