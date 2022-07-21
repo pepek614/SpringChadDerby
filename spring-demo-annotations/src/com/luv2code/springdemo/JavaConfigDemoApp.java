@@ -12,7 +12,7 @@ public class JavaConfigDemoApp {
 		AnnotationConfigApplicationContext context = 
 				new AnnotationConfigApplicationContext(SportConfig.class);
 		
-		Coach theCoach = context.getBean("tennisCoach", Coach.class);
+		Coach theCoach = context.getBean("swimCoach", Coach.class);
 		System.out.println(theCoach.getDailyWorkout());
 		System.out.println(theCoach.getDailyFortune());
 		
